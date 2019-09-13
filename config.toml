@@ -1,0 +1,26 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "The Slurm Framework: Toxic Company Cultures"
+disableKinds = ["sitemap", "RSS"]
+theme = "reveal-hugo"
+themesDir = "themes/"
+
+# uncomment for browsing at file:///
+# relativeURLs = true
+# uglyURLs = true
+
+[author]
+name = "Dennis Stepp"
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[params.reveal_hugo]
+history = true
+
+# used in content/template-example
+[params.reveal_hugo.templates.grey]
+background = "#424242"
+transition = "convex"
